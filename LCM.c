@@ -3,8 +3,10 @@ int lcm(int a, int b);
 int main()
 {
     int num1, num2, LCM;
-    printf("Enter any two numbers to find lcm: ");
-    scanf("%d%d", &num1, &num2);
+    printf("Input first number:");
+    scanf("%d",&num1);
+    printf("Input second number:");
+    scanf("%d",&num2);
     if(num1 > num2)
         LCM = lcm(num2, num1);
     else
